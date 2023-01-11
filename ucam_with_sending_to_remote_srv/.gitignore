@@ -1,0 +1,13 @@
+.idea/
+BUILD/
+mbed-os/
+sd-driver/
+CMakeLists.txt
+cmake-build-debug/
+mbed_settings.py
+ds3231/
+JSON/
+mbed-http/
+easy-connect/
+mbed_settings.pyc
+mbed_app.json

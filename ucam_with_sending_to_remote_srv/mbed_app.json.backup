@@ -1,0 +1,47 @@
+{
+  "config": {
+    "DEBUG_MSG": 0,
+    "DEVICE_SPI": 1,
+    "FSFAT_SDCARD_INSTALLED": 1,
+    "network-interface":{
+      "help": "options are ETHERNET,WIFI_ESP8266,WIFI_ODIN, WIFI_REALTEK, MESH_LOWPAN_ND,MESH_THREAD",
+      "value": "WIFI_ESP8266"
+    },
+    "wifi-ssid": {
+      "help": "WiFi SSID",
+      "value": "\"Table Space\""
+    },
+    "wifi-password": {
+      "help": "WiFi Password",
+      "value": "\"TOSdisplaywall22\""
+    },
+    "esp8266-tx": {
+      "help": "TX pin for serial connection to external device",
+      "value": "PC_12"
+    },
+    "esp8266-rx": {
+      "help": "RX pin for serial connection to external device",
+      "value": "PD_2"
+    },
+    "uCam-tx": {
+      "value": "PC_10"
+    },
+    "uCam-rx": {
+      "value": "PC_11"
+    },
+    "uCam-reset": {
+      "value": "PH_1"
+    },
+    "timezonedb-time-path": {
+      "value": "\"http://api.timezonedb.com/v2/get-time-zone?format=json\""
+    },
+    "timezonedb-key": {
+      "help": "Register yourself at http://timezonedb.com/register/ and get your key to use API",
+      "value": "\"TGYYVBASG1FE\""
+    },
+    "timezonedb-zone": {
+      "help": "Get desired time-zone from http://timezonedb.com",
+      "value": "\"Europe/Oslo\""
+    }
+  }
+}

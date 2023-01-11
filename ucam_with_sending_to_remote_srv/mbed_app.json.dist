@@ -1,0 +1,50 @@
+{
+  "config": {
+    "DEBUG_MSG": 0,
+    "DEVICE_SPI": 1,
+    "FSFAT_SDCARD_INSTALLED": 1,
+    "network-interface":{
+      "help": "options are ETHERNET,WIFI_ESP8266,WIFI_ODIN, WIFI_REALTEK, MESH_LOWPAN_ND,MESH_THREAD",
+      "value": "WIFI_ESP8266"
+    },
+    "wifi-ssid": {
+      "help": "WiFi SSID",
+      "value": "\"Your WiFi SSID here\""
+    },
+    "wifi-password": {
+      "help": "WiFi Password",
+      "value": "\"Your WiFi passwd here\""
+    },
+    "esp8266-tx": {
+      "help": "TX pin for serial connection to external device",
+      "value": "TX Pin for WiFi module"
+    },
+    "esp8266-rx": {
+      "help": "RX pin for serial connection to external device",
+      "value": ""
+    },
+    "uCam-tx": {
+      "help": "TX pin for serial connection to uCam",
+      "value": ""
+    },
+    "uCam-rx": {
+      "help": "RX pin for serial connection to uCam",
+      "value": ""
+    },
+    "uCam-reset": {
+      "help": "Pin connected to uCam's reset pin",
+      "value": ""
+    },
+    "timezonedb-time-path": {
+      "value": "\"http://api.timezonedb.com/v2/get-time-zone?format=json\""
+    },
+    "timezonedb-key": {
+      "help": "Register yourself at http://timezonedb.com/register/ and get your key to use API",
+      "value": "\"Your key here\""
+    },
+    "timezonedb-zone": {
+      "help": "Get desired time-zone from http://timezonedb.com",
+      "value": "\"Your time-zone here\""
+    }
+  }
+}
